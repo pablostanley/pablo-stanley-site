@@ -14,7 +14,7 @@ export default function About() {
       </p>
 
       <p className="leading-relaxed">
-        right now i&apos;m a staff product designer at <a className="underline underline-offset-4" href="https://vercel.com" target="_blank" rel="noopener noreferrer">vercel</a>, working on <a className="underline underline-offset-4" href="https://v0.app" target="_blank" rel="noopener noreferrer">v0</a>. on the side, i&apos;m building <a className="underline underline-offset-4" href="https://efecto.app" target="_blank" rel="noopener noreferrer">efecto</a>... an ai design agency, solo. nights and weekends and 2am sessions.
+        right now i&apos;m a staff product designer at <a className="font-medium hover:underline underline-offset-4" href="https://vercel.com" target="_blank" rel="noopener noreferrer">vercel</a>, working on <a className="font-medium hover:underline underline-offset-4" href="https://v0.app" target="_blank" rel="noopener noreferrer">v0</a>. on the side, i&apos;m building <a className="font-medium hover:underline underline-offset-4" href="https://efecto.app" target="_blank" rel="noopener noreferrer">efecto</a>... an ai design agency, solo. nights and weekends and 2am sessions.
       </p>
 
       <p className="leading-relaxed">
@@ -22,11 +22,11 @@ export default function About() {
       </p>
 
       <p className="leading-relaxed">
-        before that, i co-founded <a className="underline underline-offset-4" href="https://lummi.ai" target="_blank" rel="noopener noreferrer">lummi</a> (acquired by udemy, june 2025), musho ai, blush, and carbon health. earlier, i led design on invision studio and did design at lyft and udemy.
+        before that, i co-founded <a className="font-medium hover:underline underline-offset-4" href="https://lummi.ai" target="_blank" rel="noopener noreferrer">lummi</a> (acquired by udemy, june 2025), musho ai, blush, and carbon health. earlier, i led design on invision studio and did design at lyft and udemy.
       </p>
 
       <p className="leading-relaxed">
-        on the side i make open-source illustration and avatar systems used by millions... humaaans, open peeps, avataaars, bottts, robotos, buttsss, humankind, open doodles. plus little tools like <a className="underline underline-offset-4" href="https://bueno.art/" target="_blank" rel="noopener noreferrer">bueno</a>. i also draw <a className="underline underline-offset-4" href="https://thedesignteam.io" target="_blank" rel="noopener noreferrer">the design team</a>, a webcomic about startup life, and i write a <a className="underline underline-offset-4" href="https://pablostanley.substack.com" target="_blank" rel="noopener noreferrer">newsletter</a> about ai, design, creativity, and what speed costs us.
+        on the side i make open-source illustration and avatar systems used by millions... humaaans, open peeps, avataaars, bottts, robotos, buttsss, humankind, open doodles. plus little tools like <a className="font-medium hover:underline underline-offset-4" href="https://bueno.art/" target="_blank" rel="noopener noreferrer">bueno</a>. i also draw <a className="font-medium hover:underline underline-offset-4" href="https://thedesignteam.io" target="_blank" rel="noopener noreferrer">the design team</a>, a webcomic about startup life, and i write a <a className="font-medium hover:underline underline-offset-4" href="https://pablostanley.substack.com" target="_blank" rel="noopener noreferrer">newsletter</a> about ai, design, creativity, and what speed costs us.
       </p>
 
       <p className="leading-relaxed">
@@ -34,10 +34,10 @@ export default function About() {
       </p>
 
       <p className="leading-relaxed">
-        reach me at <a className="underline underline-offset-4" href="mailto:pablostanley1@gmail.com">pablostanley1@gmail.com</a>, or on{" "}
-        <a className="underline underline-offset-4" href="https://x.com/pablostanley" target="_blank" rel="noopener noreferrer">twitter</a> /{" "}
-        <a className="underline underline-offset-4" href="https://linkedin.com/in/pablostanley1" target="_blank" rel="noopener noreferrer">linkedin</a> /{" "}
-        <a className="underline underline-offset-4" href="https://github.com/pablostanley" target="_blank" rel="noopener noreferrer">github</a>.
+        reach me at <a className="font-medium hover:underline underline-offset-4" href="mailto:pablostanley1@gmail.com">pablostanley1@gmail.com</a>, or on{" "}
+        <a className="font-medium hover:underline underline-offset-4" href="https://x.com/pablostanley" target="_blank" rel="noopener noreferrer">twitter</a> /{" "}
+        <a className="font-medium hover:underline underline-offset-4" href="https://linkedin.com/in/pablostanley1" target="_blank" rel="noopener noreferrer">linkedin</a> /{" "}
+        <a className="font-medium hover:underline underline-offset-4" href="https://github.com/pablostanley" target="_blank" rel="noopener noreferrer">github</a>.
       </p>
 
       <p className="leading-relaxed font-mono text-sm">

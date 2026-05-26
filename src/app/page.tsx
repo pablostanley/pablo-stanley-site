@@ -12,22 +12,22 @@ export default function Home() {
         </p>
         <p className="leading-relaxed">
           right now i&apos;m designing{" "}
-          <a className="underline underline-offset-4" href="https://v0.app" target="_blank" rel="noopener noreferrer">v0</a>{" "}
+          <a className="font-medium hover:underline underline-offset-4" href="https://v0.app" target="_blank" rel="noopener noreferrer">v0</a>{" "}
           at{" "}
-          <a className="underline underline-offset-4" href="https://vercel.com" target="_blank" rel="noopener noreferrer">vercel</a>.
+          <a className="font-medium hover:underline underline-offset-4" href="https://vercel.com" target="_blank" rel="noopener noreferrer">vercel</a>.
           on the side, i&apos;m building{" "}
-          <a className="underline underline-offset-4" href="https://efecto.app" target="_blank" rel="noopener noreferrer">efecto.app</a>.
+          <a className="font-medium hover:underline underline-offset-4" href="https://efecto.app" target="_blank" rel="noopener noreferrer">efecto.app</a>.
           previously i co-founded{" "}
-          <a className="underline underline-offset-4" href="https://lummi.ai" target="_blank" rel="noopener noreferrer">lummi</a>{" "}
+          <a className="font-medium hover:underline underline-offset-4" href="https://lummi.ai" target="_blank" rel="noopener noreferrer">lummi</a>{" "}
           (acquired by udemy, 2025).
         </p>
         <div className="flex gap-6 font-mono text-sm pt-2">
-          <Link href="/work" className="underline underline-offset-4">see my work →</Link>
+          <Link href="/work" className="font-medium hover:underline underline-offset-4">see my work →</Link>
           <a
             href="https://pablostanley.substack.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="underline underline-offset-4"
+            className="font-medium hover:underline underline-offset-4"
           >
             read my newsletter →
           </a>
