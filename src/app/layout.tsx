@@ -20,10 +20,10 @@ export const metadata: Metadata = {
     default: "Pablo Stanley",
     template: "%s — Pablo Stanley",
   },
-  description: "Designer, illustrator, and maker. Personal site of Pablo Stanley.",
+  description: "Designer and creative-tools builder, ships in code. Staff Product Designer at Vercel (v0). Founder of Efecto. Previously co-founded Lummi (acquired by Udemy).",
   openGraph: {
     title: "Pablo Stanley",
-    description: "Designer, illustrator, and maker.",
+    description: "Designer and creative-tools builder. Staff Product Designer at Vercel (v0). Founder of Efecto.",
     url: "https://pablostanley.com",
     siteName: "Pablo Stanley",
     type: "website",
