@@ -29,13 +29,13 @@ export default async function Post({ params }: { params: Promise<Params> }) {
   return (
     <article className="flex flex-col gap-6">
       <header className="flex flex-col gap-2">
-        <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight">{post.title}</h1>
-        <time className="text-sm text-zinc-500 dark:text-zinc-400">
-          {new Date(post.date).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
+        <h1 className="text-3xl sm:text-4xl tracking-tight">{post.title}</h1>
+        <time className="font-mono text-sm text-zinc-500 dark:text-zinc-400">
+          {new Date(post.date).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" }).toLowerCase()}
         </time>
       </header>
       <div
-        className="prose dark:prose-invert max-w-none"
+        className="prose prose-zinc dark:prose-invert max-w-none"
         dangerouslySetInnerHTML={{ __html: html }}
       />
     </article>

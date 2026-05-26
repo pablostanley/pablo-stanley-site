@@ -2,51 +2,52 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-12">
+    <div className="flex flex-col gap-16">
       <section className="flex flex-col gap-6">
-        <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight leading-tight">
-          holaaaa, I&apos;m Pablo.
+        <h1 className="text-3xl sm:text-4xl tracking-tight">
+          holaaaa, i&apos;m pablo.
         </h1>
-        <p className="text-lg text-zinc-600 dark:text-zinc-400 leading-relaxed">
-          Designer and creative-tools builder. Ships in code. 20 years across
-          product and illustration systems... last four mostly AI.
+        <p className="leading-relaxed">
+          designer and creative-tools builder. ships in code. 20 years across
+          product and illustration systems... last four mostly ai.
         </p>
-        <p className="text-lg text-zinc-600 dark:text-zinc-400 leading-relaxed">
-          Currently designing <a className="underline underline-offset-4 hover:text-zinc-900 dark:hover:text-zinc-100" href="https://v0.app" target="_blank" rel="noopener noreferrer">v0</a> at <a className="underline underline-offset-4 hover:text-zinc-900 dark:hover:text-zinc-100" href="https://vercel.com" target="_blank" rel="noopener noreferrer">Vercel</a>. On the side, building <a className="underline underline-offset-4 hover:text-zinc-900 dark:hover:text-zinc-100" href="https://efecto.app" target="_blank" rel="noopener noreferrer">efecto.app</a>. Previously co-founded <a className="underline underline-offset-4 hover:text-zinc-900 dark:hover:text-zinc-100" href="https://lummi.ai" target="_blank" rel="noopener noreferrer">Lummi</a> (acquired by Udemy, 2025).
+        <p className="leading-relaxed">
+          currently designing{" "}
+          <a className="underline underline-offset-4" href="https://v0.app" target="_blank" rel="noopener noreferrer">v0</a>{" "}
+          at{" "}
+          <a className="underline underline-offset-4" href="https://vercel.com" target="_blank" rel="noopener noreferrer">vercel</a>.
+          on the side, building{" "}
+          <a className="underline underline-offset-4" href="https://efecto.app" target="_blank" rel="noopener noreferrer">efecto.app</a>.
+          previously co-founded{" "}
+          <a className="underline underline-offset-4" href="https://lummi.ai" target="_blank" rel="noopener noreferrer">lummi</a>{" "}
+          (acquired by udemy, 2025).
         </p>
-        <div className="flex gap-3 flex-wrap">
-          <Link
-            href="/work"
-            className="rounded-full bg-zinc-900 text-zinc-50 dark:bg-zinc-100 dark:text-zinc-900 px-5 py-2 text-sm font-medium hover:opacity-90 transition-opacity"
-          >
-            See the work
-          </Link>
+        <div className="flex gap-6 font-mono text-sm pt-2">
+          <Link href="/work" className="underline underline-offset-4">see the work →</Link>
           <a
             href="https://pablostanley.substack.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full border border-zinc-300 dark:border-zinc-700 px-5 py-2 text-sm font-medium hover:bg-zinc-100 dark:hover:bg-zinc-900 transition-colors"
+            className="underline underline-offset-4"
           >
-            Read the newsletter
+            read the newsletter →
           </a>
         </div>
       </section>
 
-      <section className="flex flex-col gap-4">
-        <h2 className="text-sm font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
-          Right now
-        </h2>
-        <ul className="flex flex-col divide-y divide-zinc-200 dark:divide-zinc-800">
+      <section className="flex flex-col gap-6">
+        <h2 className="font-mono text-sm text-zinc-500 dark:text-zinc-400">right now</h2>
+        <ul className="flex flex-col gap-4">
           {now.map((p) => (
-            <li key={p.href} className="py-4">
+            <li key={p.href}>
               <a
                 href={p.href}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex justify-between items-baseline gap-4 group"
               >
-                <span className="font-medium group-hover:underline">{p.name}</span>
-                <span className="text-sm text-zinc-500 dark:text-zinc-400 text-right">{p.blurb}</span>
+                <span className="group-hover:underline underline-offset-4">{p.name}</span>
+                <span className="font-mono text-sm text-zinc-500 dark:text-zinc-400 text-right">{p.blurb}</span>
               </a>
             </li>
           ))}
@@ -57,7 +58,7 @@ export default function Home() {
 }
 
 const now: { name: string; href: string; blurb: string }[] = [
-  { name: "v0 at Vercel", href: "https://v0.app", blurb: "Designing model behavior + generative UI" },
-  { name: "Efecto", href: "https://efecto.app", blurb: "AI design agency, solo build" },
-  { name: "Substack", href: "https://pablostanley.substack.com", blurb: "Essays + comics about AI, design, creativity" },
+  { name: "v0 at vercel", href: "https://v0.app", blurb: "model behavior + generative ui" },
+  { name: "efecto", href: "https://efecto.app", blurb: "ai design agency, solo build" },
+  { name: "substack", href: "https://pablostanley.substack.com", blurb: "essays + comics" },
 ];

@@ -1,48 +1,48 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About",
+  title: "about",
 };
 
 export default function About() {
   return (
-    <article className="flex flex-col gap-6 prose dark:prose-invert max-w-none">
-      <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight">About</h1>
+    <article className="flex flex-col gap-6 max-w-none">
+      <h1 className="text-3xl sm:text-4xl tracking-tight">about</h1>
 
-      <p className="text-lg text-zinc-600 dark:text-zinc-400 leading-relaxed">
-        I&apos;m Pablo. Mexican, lives in the US. New dad. I design things and I use AI to build them.
+      <p className="leading-relaxed">
+        i&apos;m pablo. mexican, lives in the us. new dad. i design things and i use ai to build them.
       </p>
 
-      <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
-        Right now I&apos;m a Staff Product Designer at <a href="https://vercel.com" target="_blank" rel="noopener noreferrer">Vercel</a>, working on <a href="https://v0.app" target="_blank" rel="noopener noreferrer">v0</a>. On the side, I&apos;m building <a href="https://efecto.app" target="_blank" rel="noopener noreferrer">Efecto</a>... an AI design agency, solo. Nights and weekends and 2am sessions.
+      <p className="leading-relaxed">
+        right now i&apos;m a staff product designer at <a className="underline underline-offset-4" href="https://vercel.com" target="_blank" rel="noopener noreferrer">vercel</a>, working on <a className="underline underline-offset-4" href="https://v0.app" target="_blank" rel="noopener noreferrer">v0</a>. on the side, i&apos;m building <a className="underline underline-offset-4" href="https://efecto.app" target="_blank" rel="noopener noreferrer">efecto</a>... an ai design agency, solo. nights and weekends and 2am sessions.
       </p>
 
-      <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
-        The last four years of my work have mostly been AI tools, built with AI tools. I write and ship my own designs in React, Tailwind, and TypeScript, and I run Claude Code, v0, Cursor, and Codex most days. Still forming opinions on what AI products should feel like.
+      <p className="leading-relaxed">
+        the last four years of my work have mostly been ai tools, built with ai tools. i write and ship my own designs in react, tailwind, and typescript, and i run claude code, v0, cursor, and codex most days. still forming opinions on what ai products should feel like.
       </p>
 
-      <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
-        Before that, I co-founded <a href="https://lummi.ai" target="_blank" rel="noopener noreferrer">Lummi</a> (acquired by Udemy, June 2025), Musho AI, Blush, and Carbon Health. Earlier, I led design on InVision Studio and did design at Lyft and Udemy.
+      <p className="leading-relaxed">
+        before that, i co-founded <a className="underline underline-offset-4" href="https://lummi.ai" target="_blank" rel="noopener noreferrer">lummi</a> (acquired by udemy, june 2025), musho ai, blush, and carbon health. earlier, i led design on invision studio and did design at lyft and udemy.
       </p>
 
-      <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
-        On the side I make open-source illustration and avatar systems used by millions... Humaaans, Open Peeps, Avataaars, Bottts, Robotos, Buttsss, Humankind, Open Doodles. Plus little tools like <a href="https://bueno.art/" target="_blank" rel="noopener noreferrer">Bueno</a>. I also draw <a href="https://thedesignteam.io" target="_blank" rel="noopener noreferrer">The Design Team</a>, a webcomic about startup life, and I write a <a href="https://pablostanley.substack.com" target="_blank" rel="noopener noreferrer">newsletter</a> about AI, design, creativity, and what speed costs us.
+      <p className="leading-relaxed">
+        on the side i make open-source illustration and avatar systems used by millions... humaaans, open peeps, avataaars, bottts, robotos, buttsss, humankind, open doodles. plus little tools like <a className="underline underline-offset-4" href="https://bueno.art/" target="_blank" rel="noopener noreferrer">bueno</a>. i also draw <a className="underline underline-offset-4" href="https://thedesignteam.io" target="_blank" rel="noopener noreferrer">the design team</a>, a webcomic about startup life, and i write a <a className="underline underline-offset-4" href="https://pablostanley.substack.com" target="_blank" rel="noopener noreferrer">newsletter</a> about ai, design, creativity, and what speed costs us.
       </p>
 
-      <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
-        I&apos;ve talked at Awwwards, Design Matters (Tokyo, Mexico City, Copenhagen), Kinference, Forward Festival, RETHINK, Domestika, and a few others. I illustrated <i>The Making of a Manager</i> by Julie Zhuo.
+      <p className="leading-relaxed">
+        i&apos;ve talked at awwwards, design matters (tokyo, mexico city, copenhagen), kinference, forward festival, rethink, domestika, and a few others. i illustrated <i>the making of a manager</i> by julie zhuo.
       </p>
 
-      <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
-        Reach me at <a href="mailto:pablostanley1@gmail.com">pablostanley1@gmail.com</a>, or on{" "}
-        <a href="https://x.com/pablostanley" target="_blank" rel="noopener noreferrer">Twitter</a> /{" "}
-        <a href="https://linkedin.com/in/pablostanley1" target="_blank" rel="noopener noreferrer">LinkedIn</a> /{" "}
-        <a href="https://github.com/pablostanley" target="_blank" rel="noopener noreferrer">GitHub</a>.
+      <p className="leading-relaxed">
+        reach me at <a className="underline underline-offset-4" href="mailto:pablostanley1@gmail.com">pablostanley1@gmail.com</a>, or on{" "}
+        <a className="underline underline-offset-4" href="https://x.com/pablostanley" target="_blank" rel="noopener noreferrer">twitter</a> /{" "}
+        <a className="underline underline-offset-4" href="https://linkedin.com/in/pablostanley1" target="_blank" rel="noopener noreferrer">linkedin</a> /{" "}
+        <a className="underline underline-offset-4" href="https://github.com/pablostanley" target="_blank" rel="noopener noreferrer">github</a>.
       </p>
 
-      <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">
-        Un abrazote,<br />
-        Pabs
+      <p className="leading-relaxed font-mono text-sm">
+        un abrazote,<br />
+        pabs
       </p>
     </article>
   );

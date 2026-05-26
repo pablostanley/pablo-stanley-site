@@ -3,30 +3,30 @@ import Link from "next/link";
 import { getAllPosts } from "@/lib/posts";
 
 export const metadata: Metadata = {
-  title: "Blog",
+  title: "blog",
 };
 
 export default function Blog() {
   const posts = getAllPosts();
   return (
-    <div className="flex flex-col gap-8">
-      <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight">Blog</h1>
+    <div className="flex flex-col gap-12">
+      <h1 className="text-3xl sm:text-4xl tracking-tight">blog</h1>
       {posts.length === 0 ? (
-        <p className="text-zinc-600 dark:text-zinc-400">
-          No posts yet. Drop an <code>.md</code> file in <code>src/content/blog/</code>.
+        <p className="text-zinc-700 dark:text-zinc-300">
+          no posts yet. drop an <code className="font-mono">.md</code> file in <code className="font-mono">src/content/blog/</code>.
         </p>
       ) : (
-        <ul className="flex flex-col divide-y divide-zinc-200 dark:divide-zinc-800">
+        <ul className="flex flex-col gap-6">
           {posts.map((p) => (
-            <li key={p.slug} className="py-6">
+            <li key={p.slug}>
               <Link href={`/blog/${p.slug}`} className="flex flex-col gap-1 group">
                 <div className="flex justify-between items-baseline gap-4">
-                  <h2 className="text-lg font-medium group-hover:underline">{p.title}</h2>
-                  <span className="text-sm text-zinc-500 dark:text-zinc-400">
-                    {new Date(p.date).toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" })}
+                  <h2 className="group-hover:underline underline-offset-4">{p.title}</h2>
+                  <span className="font-mono text-sm text-zinc-500 dark:text-zinc-400 whitespace-nowrap">
+                    {new Date(p.date).toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" }).toLowerCase()}
                   </span>
                 </div>
-                {p.summary && <p className="text-zinc-600 dark:text-zinc-400">{p.summary}</p>}
+                {p.summary && <p className="text-sm text-zinc-700 dark:text-zinc-300">{p.summary}</p>}
               </Link>
             </li>
           ))}

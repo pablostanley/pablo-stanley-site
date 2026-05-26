@@ -1,26 +1,22 @@
 import Link from "next/link";
 
 const links = [
-  { href: "/", label: "Home" },
-  { href: "/work", label: "Work" },
-  { href: "/blog", label: "Blog" },
-  { href: "/about", label: "About" },
+  { href: "/work", label: "work" },
+  { href: "/blog", label: "blog" },
+  { href: "/about", label: "about" },
 ];
 
 export function Nav() {
   return (
-    <header className="w-full border-b border-zinc-200 dark:border-zinc-800">
-      <nav className="max-w-3xl mx-auto px-6 py-4 flex items-center justify-between">
-        <Link href="/" className="font-semibold tracking-tight">
-          Pablo Stanley
+    <header className="w-full">
+      <nav className="max-w-2xl mx-auto px-6 py-8 flex items-center justify-between font-mono text-sm">
+        <Link href="/" className="hover:underline underline-offset-4">
+          pablo stanley
         </Link>
-        <ul className="flex gap-6 text-sm">
-          {links.slice(1).map((l) => (
+        <ul className="flex gap-6">
+          {links.map((l) => (
             <li key={l.href}>
-              <Link
-                href={l.href}
-                className="text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors"
-              >
+              <Link href={l.href} className="hover:underline underline-offset-4">
                 {l.label}
               </Link>
             </li>
