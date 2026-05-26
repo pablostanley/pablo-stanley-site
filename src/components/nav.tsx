@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 const links = [
   { href: "/work", label: "work" },
@@ -20,7 +21,10 @@ export function Nav() {
         <Link href="/" className="hover:underline underline-offset-4">
           pablo stanley
         </Link>
-        <ul className="flex gap-6">
+        <ul className="flex items-center gap-6">
+          <li className="flex items-center">
+            <ThemeToggle />
+          </li>
           {links.map((l) => (
             <li key={l.href}>
               <Link

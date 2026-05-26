@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme inline {
   --font-sans: var(--font-dm-sans);
@@ -10,14 +11,28 @@ html {
   font-family: var(--font-sans);
 }
 
+main a,
+article a {
+  color: black;
+}
+
+.dark main a,
+.dark article a {
+  color: white;
+}
+
+nav a,
+footer a,
+button {
+  color: inherit;
+}
+
 ::selection {
   background: black;
   color: white;
 }
 
-@media (prefers-color-scheme: dark) {
-  ::selection {
-    background: white;
-    color: black;
-  }
+.dark ::selection {
+  background: white;
+  color: black;
 }

@@ -3,6 +3,7 @@ import { DM_Sans, DM_Mono } from "next/font/google";
 import "./globals.css";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
+import { ThemeProvider } from "@/components/theme-provider";
 
 const dmSans = DM_Sans({
   variable: "--font-dm-sans",
@@ -43,12 +44,15 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      suppressHydrationWarning
       className={`${dmSans.variable} ${dmMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-white text-black dark:bg-black dark:text-white">
-        <Nav />
-        <main className="flex-1 w-full max-w-2xl mx-auto px-6 py-20">{children}</main>
-        <Footer />
+      <body className="min-h-full flex flex-col bg-white text-zinc-700 dark:bg-black dark:text-zinc-300">
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <Nav />
+          <main className="flex-1 w-full max-w-2xl mx-auto px-6 py-20">{children}</main>
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );
