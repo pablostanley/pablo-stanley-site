@@ -5,32 +5,31 @@ export default function Home() {
     <div className="flex flex-col gap-16">
       <section className="flex flex-col gap-6">
         <h1 className="text-3xl sm:text-4xl tracking-tight">
-          holaaaa, i&apos;m pablo.
+          pablo stanley
         </h1>
         <p className="leading-relaxed">
-          designer and creative-tools builder. ships in code. 20 years across
-          product and illustration systems... last four mostly ai.
+          hola, i&apos;m pabs. designer and creative-tools builder. i ship in code. 20 years across product and illustration systems... last four mostly ai.
         </p>
         <p className="leading-relaxed">
-          currently designing{" "}
+          right now i&apos;m designing{" "}
           <a className="underline underline-offset-4" href="https://v0.app" target="_blank" rel="noopener noreferrer">v0</a>{" "}
           at{" "}
           <a className="underline underline-offset-4" href="https://vercel.com" target="_blank" rel="noopener noreferrer">vercel</a>.
-          on the side, building{" "}
+          on the side, i&apos;m building{" "}
           <a className="underline underline-offset-4" href="https://efecto.app" target="_blank" rel="noopener noreferrer">efecto.app</a>.
-          previously co-founded{" "}
+          previously i co-founded{" "}
           <a className="underline underline-offset-4" href="https://lummi.ai" target="_blank" rel="noopener noreferrer">lummi</a>{" "}
           (acquired by udemy, 2025).
         </p>
         <div className="flex gap-6 font-mono text-sm pt-2">
-          <Link href="/work" className="underline underline-offset-4">see the work →</Link>
+          <Link href="/work" className="underline underline-offset-4">see my work →</Link>
           <a
             href="https://pablostanley.substack.com"
             target="_blank"
             rel="noopener noreferrer"
             className="underline underline-offset-4"
           >
-            read the newsletter →
+            read my newsletter →
           </a>
         </div>
       </section>
