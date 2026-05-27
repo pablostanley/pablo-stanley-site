@@ -73,7 +73,7 @@ const sideProjects: Side[] = [
   { name: "bueno", href: "https://bueno.art/", blurb: "little ai/design tool." },
   { name: "humaaans", year: "2018", href: "https://humaaans.com", blurb: "mix-and-match illustration system. #1 product hunt. defined the late-2010s saas illustration look." },
   { name: "open peeps", href: "https://openpeeps.com", blurb: "hand-drawn illustration library. cc0." },
-  { name: "avataaars", href: "https://avataaars.com", blurb: "avatar generator. used by millions." },
+  { name: "avataaars", href: "https://getavataaars.com", blurb: "avatar generator. used by millions." },
   { name: "bottts", blurb: "robot avatar generator." },
   { name: "robotos", href: "https://robotos.art/", blurb: "robot avatars." },
   { name: "buttsss", href: "https://buttsss.com/", blurb: "yes." },
@@ -82,7 +82,7 @@ const sideProjects: Side[] = [
   { name: "the design team", href: "https://thedesignteam.io/", blurb: "webcomics about startup life." },
   { name: "latinxs who design", href: "https://latinxswhodesign.com", blurb: "directory for latinx designers in tech." },
   { name: "dreamer stories", year: "2017", href: "https://www.dreamerstories.com/", blurb: "illustrated portraits + oral histories of daca recipients." },
-  { name: "sketch together", href: "https://youtube.com/sketchtogether", blurb: "youtube design channel." },
+  { name: "sketch together", href: "https://www.youtube.com/@sketchtogether", blurb: "youtube design channel." },
   { name: "diseño cha cha chá", href: "https://podcasts.apple.com/us/podcast/dise%C3%B1o-cha-cha-ch%C3%A1/id1225335043", blurb: "spanish-language podcast for latinx designers in tech." },
 ];
 
